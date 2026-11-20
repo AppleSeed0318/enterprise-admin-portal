@@ -44,7 +44,7 @@ export default function LoginLeftPanel() {
         </Box>
         <Box sx={{ mt: 6 }}>
           <Typography variant="caption2" sx={{ color: isDark ? theme.palette.text.disabled : '#9ca3af', fontSize: 11 }}>
-            MIT License &bull; v0.1.0 &bull; github.com/obsadmin
+            Developed by &bull; v0.1.0 &bull; <a href="https://github.com/AppleSeed0318/enterprise-admin-portal"> Appleseed0318 </a>
           </Typography>
         </Box>
       </Box>
