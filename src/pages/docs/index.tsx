@@ -23,7 +23,7 @@ const sections: { title: string; icon: typeof Rocket; items: DocItem[] }[] = [
   {
     title: 'Community',
     icon: MessageCircle,
-    items: [{ label: 'GitHub', desc: 'github.com/obsadmin', external: true }, { label: 'Discord', desc: 'Join our community server', external: true }, { label: 'Contributing Guide', desc: 'How to contribute to obsAdmin', external: true }],
+    items: [{ label: 'GitHub', desc: 'https://github.com/AppleSeed0318/enterprise-admin-portal', external: true }, { label: 'Discord', desc: 'Join our community server', external: true }, { label: 'Contributing Guide', desc: 'How to contribute to obsAdmin', external: true }],
   },
 ]
 
