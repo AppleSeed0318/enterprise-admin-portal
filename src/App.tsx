@@ -4,7 +4,6 @@ import AuthGuard from './components/guards/AuthGuard'
 import LoginPage from './pages/auth/LoginPage'
 import ForgotPasswordPage from './pages/auth/ForgotPasswordPage'
 import Dashboard from './pages/dashboard'
-import Logs from './pages/logs'
 import Traces from './pages/traces'
 import TraceDetailPage from './pages/traces/TraceDetailPage'
 import Metrics from './pages/metrics'
@@ -34,7 +33,6 @@ export default function App() {
             <AppShell>
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-                <Route path="/logs" element={<Logs />} />
                 <Route path="/traces" element={<Traces />} />
                 <Route path="/traces/:id" element={<TraceDetailPage />} />
                 <Route path="/metrics" element={<Metrics />} />
